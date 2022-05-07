@@ -71,7 +71,7 @@ header ul li a:hover{
 #arrow{
     font-size:35px;
     cursor:pointer;
-    animation: blink 1s steps(5, start) infinite;
+   
 }
 @keyframes blink{
     to {
@@ -80,8 +80,8 @@ header ul li a:hover{
 }
 
 #animation{
-    transition:300ms;
-   
+    transition:  300ms;
+    animation: blink 1s steps(5, start) infinite;  
 }
 
 .rotate{
